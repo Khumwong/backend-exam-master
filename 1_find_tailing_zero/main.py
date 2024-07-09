@@ -32,3 +32,14 @@ class Solution:
         return count
 
 
+solution = Solution()
+input1 = 7
+input2 = -10  
+
+print(f'input = {input1}, output = {solution.find_tailing_zeroes(input1)}')
+print(f'input = {input2}, output = {solution.find_tailing_zeroes(input2)}')
+
+
+
+
+
