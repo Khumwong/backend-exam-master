@@ -87,4 +87,10 @@ class Solution:
 
         return ''.join(result)
 
+solution = Solution()
+input1 = 101
+input2 = -1  
+
+print(f'input = {input1}, output = {solution.number_to_thai(input1)}')
+print(f'input = {input2}, output = {solution.number_to_thai(input2)}')
 
