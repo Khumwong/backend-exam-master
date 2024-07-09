@@ -30,5 +30,12 @@ class Solution:
                 max_index = i
         return max_index
 
+solution = Solution()
+input1 = [1,2,1,3,5,6,4]
+input2 = []  
 
-# %%
+print(f'input = {input1}, output = {solution.find_max_index(input1)}')
+print(f'input = {input2}, output = {solution.find_max_index(input2)}')
+
+
+
